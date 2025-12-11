@@ -1,4 +1,6 @@
-## Hi there 👋
+## Oii! Sou a Yasmin, tenho 20 anos, e este README ainda está sendo aprimorado :D
+
+![Snake animation](https://github.com/ycsal/ycsal/blob/output/github-contribution-grid-snake.svg)
 
 <!--
 **ycsal/ycsal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
