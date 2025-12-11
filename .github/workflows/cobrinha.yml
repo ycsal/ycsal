@@ -26,6 +26,7 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          speed: 0.5
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
@@ -38,6 +39,5 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          speed: 0.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
