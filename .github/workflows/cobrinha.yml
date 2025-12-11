@@ -2,7 +2,6 @@ name: generate animation
 permissions:
   contents: write  # Required to push changes
 on:
-  # run automatically every 24 hours
   schedule:
     - cron: "0 */12 * * *" 
   
@@ -39,5 +38,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          speed: 0.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
