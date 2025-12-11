@@ -1,5 +1,6 @@
 name: generate animation
-
+permissions:
+  contents: write  # Required to push changes
 on:
   # run automatically every 24 hours
   schedule:
